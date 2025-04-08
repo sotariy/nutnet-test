@@ -24,8 +24,8 @@
             
             $stmt = $pdo->query($sql);
             
-            echo '<table class="table table-striped">
-                    <thead>
+            echo '<table class="table table-hover">
+                    <thead class="table-dark">
                         <tr>
                             <th>ID</th>
                             <th>Название</th>
